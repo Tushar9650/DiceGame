@@ -3,7 +3,7 @@
 var player1number = Math.floor(Math.random() * 6) + 1;
 
 var randomimage = "images/dice" + player1number + ".png";
-
+ 
 document.querySelector(".img1").setAttribute("src", randomimage);
 
 // for random image 2
